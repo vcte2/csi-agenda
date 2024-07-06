@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>App</title>
+</head>
+<body>
+    <form action="https://api.sheetmonkey.io/form/9BtEnyk51ZuvnsTTjNQ5xo" method="post">
+        <h1>Arquivos para anexar</h1>
+
+        <Label class="label-middle">
+            <span>ID Cliente</span>
+            <input type="text" name="ID" id="IdCliente">
+
+            <span>Data</span>
+            <input type="date" name="date" id="date">
+        </Label><br>
+        
+        <Label class="label-top">
+            <span>Colaborador</span>
+            <input list="Colaborador" name="Colaborador" >
+        </Label>
+
+        <div class="checkbox">
+            <label><input type="checkbox" name="Etiqueta" id="">Etiqueta</label>
+            <label><input type="checkbox" name="Miter CTO" id="">Miter content</label>
+            <label><input type="checkbox" name="Caixa / CTO" id="">Caixa / CTO</label>
+            <label><input type="checkbox" name="Roteador" id="">Roteador</label>
+            <label><input type="checkbox" name="Onu" id="">Onu</label>
+            <label><input type="checkbox" name="Miter Interno" id="">Miter Interno</label>
+            <label><input type="checkbox" name="Lacre" id="">Lacre</label>
+            <label><input type="checkbox" name="Foto dos Equip" id="">Foto dos Equip</label>
+            <label><input type="checkbox" name="Teste de Velocidade" id="">Teste de Velocidade</label>
+            <label><input type="checkbox" name="Recibo" id="">Recibo</label>
+        </div>
+        
+        <button class="button" type="submit">Enviar</button>
+    </form>
+
+    <datalist id="Colaborador">
+        <option value=" ">
+        <option value="Dante">
+        <option value="Ayan">
+        <option value="Amanda">
+        <option value="Matheus">
+        <option value="Andre">
+        <option value="Tabata">
+        <option value="José Victor">
+      </datalist>
+</body>
+</html>
